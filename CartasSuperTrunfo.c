@@ -38,7 +38,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("digite o nome da cidade: Brasília");
-    scanf("%[\n]", cidade1);
+    scanf("%[\n]", cidade1); //leia até o enter
 
 
 
