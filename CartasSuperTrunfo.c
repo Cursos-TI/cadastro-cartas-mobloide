@@ -30,14 +30,14 @@ int main() {
 
     //  estado1
 
-    printf("Carta1\n");
+    printf("carta1\n");
     printf("estado1: A\n");
     scanf(" %c", &estado1);
 
     printf("codigo da carta: A01\n");
     scanf("%s", codigo1);
 
-    printf("digite o nome da cidade: Brasília");
+    printf("digite o nome da cidade: Brasília\n");
     scanf("%[\n]", cidade1); //leia até o enter
 
     printf("digite a populacao: 2900000\n");
@@ -55,7 +55,7 @@ int main() {
 
     // estado2
 
-    printf("Carta2\n");
+    printf("carta2\n");
     printf("estado2: B\n");
     scanf(" %c", &estado2);
 
@@ -78,8 +78,17 @@ int main() {
     scanf("%d", &pontosturisticos2);
 
 
+// irei tentar finalizar agora o esqueleto
+
+printf("\n Carta 1: \n");
+printf("Estado: %c\n", estado1);
+printf("Código: %s\n", codigo1);
+printf("Nome da Cidade: %s\n", Brasília);
+printf("População: %d habitantes\n", pontosturisticos2);
 
 
+
+// brasilia esta colocada de maneira errada, lembrar de corrigir mais tarde;
 
 // como vou fazer para que a depuracao nao necssite de interassao posterior?
 
