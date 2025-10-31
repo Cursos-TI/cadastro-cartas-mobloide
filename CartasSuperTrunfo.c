@@ -14,7 +14,7 @@ int main() {
     int populacao1;
     float area1;
     float pib1;
-    float pontosturisticos1;
+    int pontosturisticos1;
 
     // carta 2 - Salvador;
 
@@ -24,7 +24,7 @@ int main() {
     int populacao2;
     float area2;
     float pib2;
-    float pontosturisticos2;
+    int pontosturisticos2;
 
     // arredondei os números para melhor entendimento;
 
@@ -56,8 +56,8 @@ int main() {
     // estado2
 
     printf("Carta1\n");
-    printf("estado2: A");
-    scanf(" %c", &estado1);
+    printf("estado2: B");
+    scanf(" %c", &estado2);
 
     printf("codigo da carta: B04\n");
     scanf("%s", codigo2);
