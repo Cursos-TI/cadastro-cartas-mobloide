@@ -8,31 +8,31 @@ int main() {
 
     // carta 1 - Brasília;
 
-    char estado1 = 'A';
-    char codigo1[7] = "A01";
-    char cidade1[30] = "Brasília";
-    int populacao1 = 3000000;
-    float area1 = 5760;
-    float pontosturisticos1 = 42;
+    char estado1;
+    char codigo1[7];
+    char cidade1[30];
+    int populacao1;
+    float area1;
+    float pib1;
+    float pontosturisticos1;
 
     // carta 2 - Salvador;
 
-    char estado2 = 'B';
-    char codigo2[3] = "B04";
-    char cidade2[30] = "Salvador";
-    int populacao2 = 2560000;
-    float area2 =693;
-    float pontosturisticos2 = 70;
+    char estado2;
+    char codigo2[4];
+    char cidade2[30];
+    int populacao2;
+    float area2;
+    float pib2;
+    float pontosturisticos2;
 
-    // arredondei os números para melhor entendimento 
+    // arredondei os números para melhor entendimento;
 
-    
+    // primeira tentativa de usar scanf de maneira  real;
 
-
-
-
-
-
+    printf("04, \n");
+    printf("estado1: D");
+    scanf(" %c", &estado1);
 
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
