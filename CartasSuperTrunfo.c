@@ -9,7 +9,7 @@ int main() {
     // carta 1 - Brasília;
 
     char estado1;
-    char codigo1[7];
+    char codigo1[2];
     char cidade1[30];
     int populacao1;
     float area1;
@@ -19,7 +19,7 @@ int main() {
     // carta 2 - Salvador;
 
     char estado2;
-    char codigo2[4];
+    char codigo2[1];
     char cidade2[30];
     int populacao2;
     float area2;
@@ -30,9 +30,12 @@ int main() {
 
     // primeira tentativa de usar scanf de maneira  real;
 
-    printf("04, \n");
-    printf("estado1: D");
+    printf("Carta1\n");
+    printf("estado1: A");
     scanf(" %c", &estado1);
+
+    printf("codigo da carta: A01\n");
+    scanf("%s", codigo1)
 
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
