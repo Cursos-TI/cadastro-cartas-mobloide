@@ -31,7 +31,7 @@ int main() {
     //  estado1
 
     printf("Carta1\n");
-    printf("estado1: A");
+    printf("estado1: A\n");
     scanf(" %c", &estado1);
 
     printf("codigo da carta: A01\n");
@@ -40,48 +40,48 @@ int main() {
     printf("digite o nome da cidade: Brasília");
     scanf("%[\n]", cidade1); //leia até o enter
 
-    printf("digite a populacao: 2900000");
+    printf("digite a populacao: 2900000\n");
     scanf("%d", &populacao1);
 
-    printf("digite a area em km: 5760");     
+    printf("digite a area em km: 5760\n");     
     scanf("%f", &area1);
     
-    printf("digite o pib: 265.847");
+    printf("digite o pib: 265.847\n");
     scanf("%f", &pib1);
 
-    printf("digite o numero de pontos turisticos: 40");
+    printf("digite o numero de pontos turisticos: 40\n");
     scanf("%d", &pontosturisticos1);
 
 
     // estado2
 
-    printf("Carta1\n");
-    printf("estado2: B");
+    printf("Carta2\n");
+    printf("estado2: B\n");
     scanf(" %c", &estado2);
 
     printf("codigo da carta: B04\n");
     scanf("%s", codigo2);
 
-    printf("digite o nome da cidade: Salvador");
+    printf("digite o nome da cidade: Salvador\n");
     scanf("%[\n]", cidade2); //leia até o enter
 
-    printf("digite a populacao: 2560000");
+    printf("digite a populacao: 2560000\n");
     scanf("%d", &populacao2);
 
-    printf("digite a area em km: 693");     
+    printf("digite a area em km: 693\n");     
     scanf("%f", &area2);
     
-    printf("digite o pib: 62,9");
+    printf("digite o pib: 62,9\n");
     scanf("%f", &pib2);
 
-    printf("digite o numero de pontos turisticos: 78");
+    printf("digite o numero de pontos turisticos: 78\n");
     scanf("%d", &pontosturisticos2);
 
 
 
 
 
-
+// como vou fazer para que a depuracao nao necssite de interassao posterior?
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
