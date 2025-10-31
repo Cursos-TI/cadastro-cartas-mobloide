@@ -35,7 +35,13 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("codigo da carta: A01\n");
-    scanf("%s", codigo1)
+    scanf("%s", codigo1);
+
+    printf("digite o nome da cidade: Brasília");
+    scanf("%[\n]", cidade1);
+
+
+
 
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
