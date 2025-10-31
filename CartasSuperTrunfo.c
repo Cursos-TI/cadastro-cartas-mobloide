@@ -28,7 +28,7 @@ int main() {
 
     // arredondei os números para melhor entendimento;
 
-    // primeira tentativa de usar scanf de maneira  real;
+    //  estado1
 
     printf("Carta1\n");
     printf("estado1: A");
@@ -39,6 +39,45 @@ int main() {
 
     printf("digite o nome da cidade: Brasília");
     scanf("%[\n]", cidade1); //leia até o enter
+
+    printf("digite a populacao: 2900000");
+    scanf("%d", &populacao1);
+
+    printf("digite a area em km: 5760");     
+    scanf("%f", &area1);
+    
+    printf("digite o pib: 265.847");
+    scanf("%f", &pib1);
+
+    printf("digite o numero de pontos turisticos: 40");
+    scanf("%d", &pontosturisticos1);
+
+
+    // estado2
+
+    printf("Carta1\n");
+    printf("estado2: A");
+    scanf(" %c", &estado1);
+
+    printf("codigo da carta: B04\n");
+    scanf("%s", codigo2);
+
+    printf("digite o nome da cidade: Salvador");
+    scanf("%[\n]", cidade2); //leia até o enter
+
+    printf("digite a populacao: 2560000");
+    scanf("%d", &populacao2);
+
+    printf("digite a area em km: 693");     
+    scanf("%f", &area2);
+    
+    printf("digite o pib: 62,9");
+    scanf("%f", &pib2);
+
+    printf("digite o numero de pontos turisticos: 78");
+    scanf("%d", &pontosturisticos2);
+
+
 
 
 
