@@ -9,22 +9,26 @@ int main() {
   // declaração das variaveis da primeira carta;
 
     char estado1;
-    char codigo1[5];
+    char codigo1[4];
     char cidade1[30];
     int populacao1;
     float area1;
     float pib1;
     int pontos_turisticos1;
+    float densidade_populacional1;
+    float pib_percapta1;
 
     // declaração das variaveis da segunda carta;
 
     char estado2;
-    char codigo2[5];
+    char codigo2[4];
     char cidade2[30];
     int populacao2;
     float area2;
     float pib2;
     int pontos_turisticos2;
+    float densidade_populacional2;
+    float pib_percapta2;
 
 
     // cadastro da pimeira carta;
@@ -53,6 +57,11 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
 
+    densidade_populacional1 = populacao1 / area1;
+
+    pib_percapta1 = (pib1 * 1000000000.0f) / populacao1;
+
+
     // cadastro da segunda carta;
 
 
@@ -78,6 +87,12 @@ int main() {
     printf("Digite o Número de Pontos Turísticos: ");
     scanf("%d", &pontos_turisticos2);
 
+
+    densidade_populacional2 = populacao2 / area2;
+
+    pib_percapta2 = (pib2 * 1000000000.0f) / populacao2;
+
+
     // exibição da primeria carta;
 
     printf("\nCarta 1:\n");
@@ -88,6 +103,9 @@ int main() {
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
+    printf("PIB per Capta %.2f reais\n", pib_percapta1);
+
 
     // exibição da segunda carta; 
 
@@ -99,6 +117,8 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
+    printf("PIB per Capta %.2f reais\n", pib_percapta2);
 
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
@@ -108,4 +128,5 @@ int main() {
   // Área para exibição dos dados da cidade
 
 return 0;
+
 } 
